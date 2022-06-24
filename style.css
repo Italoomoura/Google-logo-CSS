@@ -1,0 +1,98 @@
+#googleLogo{
+    margin-top: 20vh;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#googleLogo::after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 60%;
+    height: 60%;
+    border-radius: 100%;
+    background: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+#googleLogo::before{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 35%;
+    height: 35%;
+    background: white;
+    right: 0%;
+    z-index: 1;
+    bottom: 50%;
+    transform: rotateZ(45deg);
+    -webkit-transform: rotateZ(45deg);
+}
+
+.amarelo{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    right: 75%;
+    bottom: 32%;
+    margin: auto;
+    background:  #ffc107;
+    transform: rotateZ(-48deg);
+    -webkit-transform: rotateZ(-48deg);
+    z-index: 1;
+}
+
+.vermelho{
+    width: 81%;
+    height: 50%;
+    right: 20%;
+    position: absolute;
+    top: 0%;
+    background: #f44336;
+}
+
+.verde{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0%;
+    border-radius: 0 0 100% 100%;
+    background: #4caf50;
+}
+
+.azul1{
+    position: absolute;
+    z-index: 30;
+    top: 50%;   
+    z-index: 2;
+    width: 30%;
+    height: 35%;
+    background: #0091ea;
+    right: 2%;
+    z-index: 1;
+    transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(45deg);
+}
+
+.azul2{
+    width: 50%;
+    height: 20%;
+    background: #0091ea;
+    position: absolute;
+    right: 0%;
+    margin: auto;
+    border-bottom-right-radius: 4px 20px;
+    top: 0%;
+    bottom: 1%;
+    z-index: 2;
+}
